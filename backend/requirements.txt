@@ -1,0 +1,25 @@
+# Web framework
+fastapi==0.95.1
+
+# ASGI server
+uvicorn[standard]==0.22.0
+
+# GraphQL support (includes graphql-core)
+strawberry-graphql[fastapi]==0.127.0
+graphql-core==3.2.6
+
+# Database & ORM
+SQLAlchemy==1.4.47
+pg8000==1.29.1
+
+# Environment vars
+python-dotenv==1.0.0
+
+# Logging
+python-json-logger==2.0.6
+
+# Date utilities
+python-dateutil==2.8.2
+
+# (Optional) Migrations
+alembic==1.11.1
